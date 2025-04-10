@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Eco-Pyro - Reciclaje Inteligente</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: url('img/planta.jpeg') no-repeat center center fixed;
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+      color: #fff;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+    nav {
+      background-color: #333;
+      padding: 1em;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #4CAF50;
+    }
+    main {
+      padding: 2em;
+    }
+    .gallery {
+      display: flex;
+      gap: 1em;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .gallery img {
+      width: 250px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    form {
+      margin-top: 2em;
+      background: white;
+      padding: 1em;
+      border-radius: 10px;
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    form button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px;
+      border: none;
+      width: 100%;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    form button:hover {
+      background-color: #45a049;
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      margin-top: 2em;
+    }
+    .producto-info .contenido {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 2em 0;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 1em;
+  border-radius: 10px;
+ }
+
+ .producto-info img {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255,255,255,0.2);
+ }
+
+ .producto-info .texto {
+  max-width: 500px;
+  padding: 1em;
+ }
+
+ .producto-info .texto h3 {
+  color: #4CAF50;
+  margin-bottom: 10px;
+ }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Bienvenidos a Eco-Pyro</h1>
+    <p>Transformamos residuos plásticos en energía útil</p>
+  </header>
+
+  <nav>
+    <a href="#quienes">¿Quiénes somos?</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#productos">Productos</a>
+    <a href="#galeria">Galería</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <main>
+    <section id="quienes">
+      <h2>¿Quiénes somos?</h2>
+      <p>Eco-Pyro es una empresa colombiana dedicada a la conversión de residuos plásticos en combustibles alternativos mediante pirólisis.</p>
+    </section>
+
+    <section id="servicios">
+      <h2>Servicios</h2>
+      <ul>
+        <li>Recolección y selección de residuos plásticos</li>
+        <li>Procesamiento por pirólisis</li>
+        <li>Venta de aceite pirolítico a empresas</li>
+      </ul>
+    </section>
+
+    <section id="productos">
+      <h2>Productos</h2>
+      <ul>
+        <li>Aceite pirolítico</li>
+        <li>Diésel destilado</li>
+        <li>Gasolina pirolítica</li>
+        <li>Queroseno</li>
+        <li>Gas Natural</li>
+      </ul>
+    </section>
+
+    <section id="galeria">
+      <h2>Galería</h2>
+      <div class="gallery">
+        <section class="producto-info">
+            <div class="contenido">
+              <img src="img/planta.jpeg" alt="Nuestro Sistema">
+              <div class="texto">
+                <h3>Nuestro Sistema</h3>
+                <p>Nuestra empresa utiliza el proceso de ingeniería inversa para obtener el aceite pirolítico de los residuos plásticos que por ultimo re refina y se obtienen combustibles.</p>
+              </div>
+            </div>
+        </section>
+        <section class="producto-info">
+            <div class="contenido">
+              <img src="img/aceite.jpeg" alt="Aceite Pirolítico">
+              <div class="texto">
+                <h3>Aceite Pirolítico</h3>
+                <p>Este aceite es producido mediante la pirólisis de residuos plásticos no reciclables. Su uso principal es como combustible alternativo para procesos industriales, generando una economía circular y reduciendo el impacto ambiental.</p>
+              </div>
+            </div>
+        </section>
+        <section class="producto-info">
+            <div class="contenido">
+              <img src="img/producto1.jpg" alt="Gasolina y Diésel">
+              <div class="texto">
+                <h3>Gasolina y Diésel</h3>
+                <p>El aceite pirolítico puede refinarse mediante un proceso similar al de las grandes petroleras. El resultado es gasolina y diésel de altísima calidad. Nuestro combustible refinado alcanza un octanaje de hasta 106, muy superior al convencional.</p>
+              </div>
+            </div>
+          </section>
+        <section class="producto-info">
+            <div class="contenido">
+              <img src="img/producto2.jpeg" alt="Carbon Negro">
+              <div class="texto">
+                <h3>Carbon Negro</h3>
+                <p>El carbón negro que resulta del proceso de pirolisis se reutiliza en la industria de betunes, tintas, asfaltos sintéticos y más. Es un subproducto valioso para múltiples sectores industriales.</p>
+              </div>
+            </div>
+        </section>
+        <section class="producto-info">
+            <div class="contenido">
+              <img src="img/producto3.jpeg" alt="Querosen">
+              <div class="texto">
+                <h3>Querosen</h3>
+                <p>Otro subproducto del aceite pirolítico es el queroseno, usado como combustible en industrias y aviación. Es altamente inflamable y eficiente para procesos de alto rendimiento energético.</p>
+              </div>
+            </div>
+        </section>
+        <section class="producto-info">
+            <div class="contenido">
+              <img src="img/producto4.png" alt="Gas Natural">
+              <div class="texto">
+                <h3>Gas Natural</h3>
+                <p>El gas que se genera en el proceso de pirólisis es reutilizado como fuente de calor para alimentar los quemadores del reactor, haciendo el proceso más eficiente y sostenible.</p>
+              </div>
+            </div>
+          </section>
+          
+      </div>
+    </section>
+
+    <section id="contacto">
+      <h2>Formulario de Contacto</h2>
+      <form>
+        <input type="text" placeholder="Nombre completo" required />
+        <input type="email" placeholder="Correo electrónico" required />
+        <textarea placeholder="Mensaje o solicitud..." rows="4" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Eco-Pyro. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
